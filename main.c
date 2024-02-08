@@ -1,0 +1,8 @@
+#include "SDL.h"
+
+int main(void){
+	SDL_CreateWindow("Text Editor", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_RESIZABLE | SDL_WINDOW_FULLSCREEN_DESKTOP);
+
+	return 0;
+}
+
